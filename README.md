@@ -1,27 +1,25 @@
-# Portafolio
+# LAKY // Developer Portfolio
 
-Sitio estático en HTML y CSS, adaptable a móviles y sin dependencias externas.
+Portafolio estático con dos universos visuales interactivos: **Dev Minecraft** y **Software**. Cada modo cambia el contenido, acento visual, especialidades, proyectos, tecnologías y panel de actividad.
 
-## Contenido
+## Incluye
 
-- Presentación y resumen de experiencia.
-- Proyectos destacados descritos por su función.
-- Tres conceptos de plugins, identificados como ideas en diseño.
-- Herramientas de desarrollo y concepto de software en etapa inicial.
-- Áreas de trabajo y contacto mediante GitHub.
+- Diseño oscuro estilo terminal / ingeniería con acentos neón.
+- Selector de universos Minecraft y Software con preferencia guardada localmente.
+- Navegación fija, animaciones de entrada y tarjetas con interacción hover.
+- Panel tipo terminal y estadísticas.
+- Secciones de experiencia, especialidades, proyectos y stack tecnológico.
+- Gráfico animado demostrativo con simulación de carga.
+- Diseño adaptable a móviles y soporte para reducir movimiento.
+- Sin dependencias ni proceso de compilación: todo está en `index.html`.
 
 ## Publicar con GitHub Pages
 
-1. Abre el repositorio **Settings**.
-2. En el menú lateral entra en **Pages**.
-3. En **Build and deployment**, selecciona **Deploy from a branch**.
-4. Selecciona la rama **main** y la carpeta **/(root)**.
-5. Pulsa **Save** y espera a que GitHub termine la publicación.
+1. Abre **Settings → Pages** en el repositorio.
+2. En **Build and deployment**, elige **Deploy from a branch**.
+3. Selecciona la rama `main` y la carpeta `/(root)`.
+4. Pulsa **Save** y espera a que finalice la publicación.
 
-Cuando Pages esté habilitado, la dirección habitual de este repositorio será:
+URL prevista: https://laky912.github.io/LAKY-Portafolio/
 
-https://laky912.github.io/LAKY-Portafolio/
-
-## Editar
-
-La página completa está en `index.html`. No necesita instalar paquetes ni ejecutar un proceso de compilación.
+Los proyectos y conceptos se describen según su estado; las ideas en desarrollo no se presentan como productos publicados.
