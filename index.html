@@ -79,7 +79,7 @@ software:{crumb:"● SOFTWARE ENGINEERING / AUTOMATION & SYSTEMS",title:'Ingenie
 };
 
 const translations={
-"Inicio":"Home","Experiencia":"Experience","Especialidad":"Specialty","Proyectos":"Projects","Contacto":"Contact","Stack":"Stack",
+"Inicio":"Home","Experiencia":"Experience","Administración":"Administration","Especialidad":"Specialty","Proyectos":"Projects","Contacto":"Contact","Stack":"Stack",
 "Desarrollo":"Development","de ":"of ","Experiencia & enfoque":"Experience & focus","Ingeniería para Minecraft":"Minecraft engineering",
 "¿Tienes una idea?":"Have an idea?","Abierto a conversar sobre desarrollo, proyectos y colaboraciones.":"Open to discussing development, projects and collaborations.",
 "Unirse a Discord":"Join Discord","Explorar proyectos":"Explore projects","Contacto directo":"Direct contact",
@@ -113,7 +113,7 @@ function setLanguage(lang){
  const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
  nodes.forEach(n=>{if(!n.__originalText)n.__originalText=n.nodeValue;const raw=n.__originalText.trim();if(!raw)return;let val=raw;if(english){val=translations[raw]||raw}else{val=raw}if(n.nodeValue.trim()!==val)n.nodeValue=n.nodeValue.replace(raw,val)});
  if(english){
-  document.querySelectorAll(".links a").forEach((a,i)=>a.textContent=["Home","Experience","Specialty","Projects","Stack","Contact"][i]||a.textContent);
+  document.querySelectorAll(".links a").forEach((a,i)=>a.textContent=["Home","Experience","Administration","Specialty","Projects","Stack","Contact"][i]||a.textContent);
   $("langBtn").textContent="EN";$("gateTitle").innerHTML='Select your <span>universe.</span>';
   document.querySelector(".gatelead").textContent="Choose which portfolio you want to explore.";
   $("gateMinecraft").querySelector("small").textContent="Plugins, bosses, fragments, servers and open-world projects.";
@@ -130,7 +130,7 @@ function setLanguage(lang){
   $("gateMinecraft").querySelector("small").textContent="Plugins, jefes, fragmentos, servidores y proyectos de mundo abierto.";
   $("gateSoftware").querySelector("small").textContent="Desarrollo de software, bots, automatización y sistemas digitales.";
   $("heroAction").textContent="↗ Explorar proyectos";
-  document.querySelectorAll(".links a").forEach((a,i)=>a.textContent=["Inicio","Experiencia","Especialidad","Proyectos","Stack","Contacto"][i]||a.textContent);
+  document.querySelectorAll(".links a").forEach((a,i)=>a.textContent=["Inicio","Experiencia","Administración","Especialidad","Proyectos","Stack","Contacto"][i]||a.textContent);
   document.querySelector(".contact h2").textContent="¿Tienes una idea?";
   document.querySelector(".contact p").textContent="Abierto a conversar sobre desarrollo, proyectos y colaboraciones.";
   document.querySelector(".contact .btn").textContent="⌁ Unirse a Discord ↗";
