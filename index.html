@@ -40,7 +40,7 @@ body:not(.entered)>.top,body:not(.entered)>main,body:not(.entered)>footer{displa
 <div class="gate" id="universeGate" role="dialog" aria-modal="true" aria-labelledby="gateTitle">
  <div class="gatebox"><div class="gatecontent">
   <div class="gatebrand">LAKY // PORTFOLIO SELECTOR · BUILD 01</div>
-  <h1 id="gateTitle">Selecciona tu <span>universo.</span></h1>
+  <h1 id="gateTitle">¿Qué <span>portafolio</span> deseas ver?</h1>
   <p class="gatelead">Elige qué portafolio deseas visitar para cargar su contenido.</p>
   <div class="gatechoices">
    <button class="gatechoice" id="gateMinecraft"><span class="gateicon">▣</span><b>DEV MINECRAFT</b><small>Plugins, jefes, fragmentos, servidores y proyectos de mundo abierto.</small></button>
@@ -125,7 +125,7 @@ function setLanguage(lang){
   document.querySelector(".contact .btn").textContent="⌁ Join Discord ↗";
   document.querySelector("footer span:last-child").textContent="BUILT TO CREATE · 2026";
  }else{
-  $("langBtn").textContent="ES";$("gateTitle").innerHTML='Selecciona tu <span>universo.</span>';
+  $("langBtn").textContent="ES";$("gateTitle").innerHTML='¿Qué <span>portafolio</span> deseas ver?';
   document.querySelector(".gatelead").textContent="Elige qué portafolio deseas visitar para cargar su contenido.";
   $("gateMinecraft").querySelector("small").textContent="Plugins, jefes, fragmentos, servidores y proyectos de mundo abierto.";
   $("gateSoftware").querySelector("small").textContent="Desarrollo de software, bots, automatización y sistemas digitales.";
